@@ -1,0 +1,73 @@
+{
+  "name": "graphmaker",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "electron:start": "export DEV=TRUE && electron .",
+    "electron:serve": "npm start & npm run electron:start",
+    "dev": "vite",
+    "build": "tsc && vite build && electron-builder",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "dist": "npm run build && electron-builder",
+    "compile": "electron-builder"
+
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.7.3",
+    "vite-tsconfig-paths": "^4.2.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "electron": "^24.4.0",
+    "electron-builder": "^23.6.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.11",
+    "vite-plugin-electron": "^0.11.2",
+    "vite-plugin-electron-renderer": "^0.14.5"
+  },
+  "main": "dist-electron/main.js",
+
+  "build": {
+
+    "appId": "com.native",
+    "productName": "Electron test app",
+    "nsis": {
+      "deleteAppDataOnUninstall": true,
+      "oneClick": false,
+      "allowElevation": true,
+      "installerIcon": "dist/icon.ico",
+      "uninstallerIcon": "dist/icon.ico",
+      "installerHeaderIcon": "dist/icon.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "BSD",
+      "perMachine": true
+    },
+    "linux": {
+      "icon": "dist/icon.ico"
+    },
+    
+    "files": [
+        "dist/**/*",
+        "electron/**/*",
+        "dist-electron/**/*",
+        "src/**/*",
+        "package.json",
+        "node_modules/**/*"
+    ]
+}
+
+}

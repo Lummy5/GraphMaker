@@ -1,0 +1,12 @@
+.Box{
+    background-color: white;
+}
+.Graph{
+    padding: 20px;
+    transition: transform .2s;
+}
+.Graph:hover{
+    background-color: rgb(185, 173, 173);
+    border-radius: 15px;
+    transform: scale(1.05);
+}

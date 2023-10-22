@@ -1,0 +1,50 @@
+
+.screen{
+  margin: 10px;
+    padding: 0 0 10px 0;
+    text-align: center;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid black;
+    border-radius: 10%;
+    background-color: #cfa580;
+    
+}
+.item{
+    display: flex;
+    padding-right: 1px;
+    padding:10px;
+  
+}
+
+.lista{
+    width: 50%;
+}
+
+.ButtonChoose {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    justify-content: center;
+    color: aliceblue;
+
+  
+  }
+.ButtonChoose:hover {
+    border-color: #646cff;
+  }
+.ButtonChoose:focus,
+.ButtonChoose:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  
+  .Margina{
+    margin-right: 20px;
+  }
