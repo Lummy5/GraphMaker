@@ -5,3 +5,6 @@ comenzi pentru a porni aplicatia
       npm run build
       // pui iconul cu numele icon.ico
       npm run compile
+
+
+ ar trebui sa mearga
