@@ -44,20 +44,21 @@
 
     "appId": "com.native",
     "productName": "Electron test app",
+    "icon": "public/icon.jpg",
     "nsis": {
       "deleteAppDataOnUninstall": true,
       "oneClick": false,
       "allowElevation": true,
-      "installerIcon": "dist/icon.ico",
-      "uninstallerIcon": "dist/icon.ico",
-      "installerHeaderIcon": "dist/icon.ico",
+      "installerIcon": "public/icon.ico",
+      "uninstallerIcon": "public/icon.ico",
+      "installerHeaderIcon": "public/icon.ico",
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "BSD",
+      "shortcutName": "GraphMaker",
       "perMachine": true
     },
     "linux": {
-      "icon": "dist/icon.ico"
+      "icon": "public/icon.ico"
     },
     
     "files": [

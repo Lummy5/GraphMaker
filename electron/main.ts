@@ -24,7 +24,7 @@ function createWindow() {
     height: 768,
     minWidth:1000,
     minHeight:700,
-    icon: path.join(process.env.PUBLIC, 'electron-vite.svg'),
+    icon: "../public/icon.ico",
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
     },
