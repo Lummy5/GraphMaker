@@ -1,6 +1,10 @@
 # GraphMaker
 Face Grafice 
+
+
 Pe linux nu merge!!
+
+daat.xlsx - excel exemplu
 
 comenzi pentru a porni aplicatia
 
