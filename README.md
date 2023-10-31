@@ -1,6 +1,6 @@
 # GraphMaker
 Face Grafice 
-
+Pe linux nu merge!!
 
 comenzi pentru a porni aplicatia
 
