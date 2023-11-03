@@ -22,12 +22,12 @@ const SelectGraph = (props) => {
                 <li className={classes.item}>
                     <input className={classes.Margina} id='0' type='checkbox' 
                     onChange={(event) => props.changeCheckedGraphs(event)}></input>
-                    <label htmlFor='prest'>Pressure(temperature)</label>
+                    <label htmlFor='prest'>P/P0(T/T0)</label>
                 </li>
                 <li className={classes.item}>
                     <input className={classes.Margina} id='1' type='checkbox'
                     onChange={(event) => props.changeCheckedGraphs(event)}></input>
-                    <label htmlFor='presh'>Pressure(altitude)</label>
+                    <label htmlFor='presh'>((P/P0)^(1/ &#955; med))(T/T0)</label>
                 </li>
                 <li className={classes.item}>
                     <input  className={classes.Margina} id='2'type='checkbox'
@@ -37,17 +37,17 @@ const SelectGraph = (props) => {
                 <li className={classes.item}>
                     <input className={classes.Margina} id='3'type='checkbox'
                     onChange={(event) => props.changeCheckedGraphs(event)}></input>
-                    <label htmlFor='tempp'>Temperature(pressure)</label>
+                    <label htmlFor='tempp'>Altitude(temperature)</label>
                 </li>
                 <li className={classes.item}>
                     <input className={classes.Margina} id='4' type='checkbox'
                     onChange={(event) => props.changeCheckedGraphs(event)}></input>
-                    <label htmlFor='hp'>Altitude(pressure)</label>
+                    <label htmlFor='hp'>Pressure(altitude)</label>
                 </li>
                 <li className={classes.item}>
                     <input className={classes.Margina} id='5' type='checkbox'
                     onChange={(event) => props.changeCheckedGraphs(event)}></input>
-                    <label htmlFor='htemp'>Altitude(temperature)</label>
+                    <label htmlFor='htemp'>Altitude(pressure)</label>
                 </li>
             </ul>
             {buttonShow}

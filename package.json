@@ -11,9 +11,10 @@
     "preview": "vite preview",
     "dist": "npm run build && electron-builder",
     "compile": "electron-builder"
-
   },
   "dependencies": {
+    "@canvasjs/charts": "^3.7.26",
+    "@canvasjs/react-charts": "^1.0.0",
     "chart.js": "^4.4.0",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
@@ -39,9 +40,7 @@
     "vite-plugin-electron-renderer": "^0.14.5"
   },
   "main": "dist-electron/main.js",
-
   "build": {
-
     "appId": "com.native",
     "productName": "Electron test app",
     "icon": "public/icon.jpg",
@@ -60,15 +59,13 @@
     "linux": {
       "icon": "public/icon.ico"
     },
-    
     "files": [
-        "dist/**/*",
-        "electron/**/*",
-        "dist-electron/**/*",
-        "src/**/*",
-        "package.json",
-        "node_modules/**/*"
+      "dist/**/*",
+      "electron/**/*",
+      "dist-electron/**/*",
+      "src/**/*",
+      "package.json",
+      "node_modules/**/*"
     ]
-}
-
+  }
 }

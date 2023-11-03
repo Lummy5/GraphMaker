@@ -5,8 +5,23 @@
     grid-gap: 2em;
 
 }
+.Box2{
+    width: 100%;
 
-
+}
+.Above{
+    display: flex;
+    justify-content: space-around;
+}
+.Constant{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+.h2{
+    text-align: center;
+}
 
 @media (min-width:1600px) {
     .Box{
