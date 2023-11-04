@@ -4,7 +4,7 @@ Face Grafice
 
 Pe linux nu merge!!
 
-daat.xlsx - excel exemplu
+DateModel.xlsx && DateModelONE.xlsx - excel exemplu (trebuie sa fie model standart)
 
 comenzi pentru a porni aplicatia
 
@@ -12,16 +12,7 @@ comenzi pentru a porni aplicatia
       
       npm run build
       
-      // pui iconul cu numele icon.ico
-      
       npm run compile
 
 
- ar trebui sa mearga
-
-Fisierul Excel trebuie sa aiba cele 3 coloane cu date primul rand sa aiba denumirile pentru fiecare coloana 
-
-      pressure (hPa)
-      temperature (°C)
-      altitude (m)
-//cel mai bine copiati denumirea de aici pentru a nu evita erorile
+apoi din fisierul **dist** lansati setupul
